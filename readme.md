@@ -6,16 +6,19 @@ Wordpress composer package working with nonce.
 
 Requirements
 
-php 5.4+, Wordpress, php-composer
+php 5.4+,  php-composer, phpunit 4.5+
 
 Installation
 
-Copy composer.json to Wordpress folder and type php php-composer install. In Wordpress activate plugin.
+1. Copy composer.json to target folder and type php php-composer install.
+ 
+Tutorial
 
+2. Type phpunit tests/unittest.php
 
 Changelog
 
-19.11.17 Initial release
+10.12.17 Initial release
 
 
 
