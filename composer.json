@@ -1,0 +1,40 @@
+{
+    "name": "installer",
+    "description": "wp_nonce composer project",
+    "authors": [
+        {
+            "name": "xxx",
+            "email": "xxx@gmail.com"
+        }
+    ],
+    "repositories" : [
+         {
+               "type" : "package",
+		"package": {
+			"name" : "wp_nonce",
+                        "version" : "dev-master",
+			"source" : {
+               			"url" : "https://github.com/Tetramatrix/wp_nonce2.git",
+				"type": "git",
+				"reference": "master"
+			}
+		}
+          }
+     ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "wp_nonce": "master" 
+    },
+    "autoload": {
+	    "psr-4": {
+		    "Src\\": "src/"
+	    }
+    },
+    "autoload-dev": {
+	    "psr-4": {
+		    "Tests\\": "tests/"
+	    }
+    },
+    
+}
