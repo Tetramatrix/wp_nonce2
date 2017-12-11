@@ -1,3 +1,4 @@
+
 {
     "name": "installer",
     "description": "wp_nonce composer project",
@@ -35,5 +36,10 @@
 	    "psr-4": {
 		    "Tests\\": "tests/"
 	    }
-    }    
+    },
+    "scripts": {
+        "test": [
+            "phpunit ./vendor/wp_nonce/tests/*.php"
+        ]
+    }   
 }
